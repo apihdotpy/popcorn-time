@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.themoviedb.org',
+        port: '',
+        // pathname: 'https://image.tmdb.org/t/p/original/',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
