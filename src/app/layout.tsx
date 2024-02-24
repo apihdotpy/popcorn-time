@@ -6,6 +6,7 @@ import './globals.css'
 import { ThemeProvider } from '@/providers/theme-provider'
 
 import { cn } from '@/lib/utils'
+import { Sidebar } from '@/components/sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
